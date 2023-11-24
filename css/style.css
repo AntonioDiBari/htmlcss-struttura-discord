@@ -7,6 +7,10 @@
 img {
   max-width: 100%;
 }
+/* ROOT */
+:root {
+  --border: 2px dotted black;
+}
 
 /* CONTAINER */
 
@@ -19,12 +23,10 @@ img {
 /* NAV */
 .nav {
   background-color: #add8e6;
-  min-height: 50px;
 }
 .wrapper {
   height: 50px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -32,7 +34,7 @@ img {
 .link,
 .login {
   background-color: #daa520;
-  border: 2px dotted black;
+  border: var(--border);
 }
 
 .logo,
@@ -49,4 +51,21 @@ img {
 
 .login {
   text-align: end;
+}
+/* SEZIONE HEADER */
+
+.header {
+  background-color: darkblue;
+  height: 300px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-section {
+  background-color: #ee82ee;
+  height: 80%;
+  width: 80%;
+  border: var(--border);
 }
