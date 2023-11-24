@@ -7,3 +7,46 @@
 img {
   max-width: 100%;
 }
+
+/* CONTAINER */
+
+.container {
+  border: 1px dotted yellow;
+  margin: 0 auto;
+  width: 700px;
+  height: 100%;
+}
+/* NAV */
+.nav {
+  background-color: #add8e6;
+  min-height: 50px;
+}
+.wrapper {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo,
+.link,
+.login {
+  background-color: #daa520;
+  border: 2px dotted black;
+}
+
+.logo,
+.login {
+  flex: 1 0 20%;
+  padding: 3px 5px;
+}
+
+.link {
+  flex: 1 0 60%;
+  text-align: center;
+  padding: 3px 5px;
+}
+
+.login {
+  text-align: end;
+}
