@@ -17,7 +17,7 @@ img {
 .container {
   border: 1px dotted red;
   margin: 0 auto;
-  width: 700px;
+  width: 730px;
   height: 100%;
 }
 /* NAV */
@@ -98,4 +98,22 @@ img {
 
 .dark {
   background-color: lightgray;
+}
+
+/* /* SEZIONE + GRANDE */
+
+.main-section {
+  height: 606px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-main-section {
+  background-color: forestgreen;
+  height: 90%;
+  width: 100%;
+  border: var(--border);
+  flex-grow: 0;
+  flex-shrink: 0;
 }
