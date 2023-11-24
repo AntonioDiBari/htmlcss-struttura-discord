@@ -117,3 +117,37 @@ img {
   flex-grow: 0;
   flex-shrink: 0;
 }
+
+/* FOOTER */
+
+.darker {
+  background-color: #23272a;
+}
+
+.top-footer {
+  height: 385px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+
+.main-content-footer {
+  background-color: lightcoral;
+  height: 350px;
+  border: var(--border);
+  flex: 0 0 30%;
+}
+
+.wrapper-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 70%;
+}
+.content-footer {
+  background-color: lightseagreen;
+  border: 2px dotted white;
+  flex-basis: 25%;
+  height: 350px;
+}
