@@ -151,3 +151,25 @@ img {
   flex-basis: 25%;
   height: 350px;
 }
+
+.footer {
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.wrapper-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  height: 50px;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+
+.logo-footer,
+.bottone-footer {
+  background-color: lightpink;
+  border: var(--border);
+  font-size: 13px;
+  padding: 2px 4px;
+}
